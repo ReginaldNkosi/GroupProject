@@ -1,7 +1,7 @@
-from lzma import LZMADecompressor, LZMACompressor
 import filecmp
 import sys
 import time
+from lzma import LZMACompressor, LZMADecompressor
 from os import listdir, stat
 from os.path import isfile, join
 
@@ -56,11 +56,11 @@ def compare_files(file1, file2):
 
 
 def main():
-    print("Compressing EEE3097S_2022_Turntable_Example_Data.csv:")
-    input_file = "EEE3097S_2022_Turntable_Example_Data_2.csv"
+    print("compressing data.txt")
+    input_file = "data.txt"
     compress(input_file="sample_data/" + input_file, output_file="sample_data/results/" + input_file + ".lz")
     print()
-    print("Decompressing EEE3097S_2022_Turntable_Example_Data.csv.lz:")
+    print("Decompressing data.txt.lz")
     decompress(input_file="sample_data/results/" + input_file + ".lz", output_file="sample_data/results/" + input_file)
     print()
     compare_files("sample_data/" + input_file, "sample_data/results/" + input_file)
