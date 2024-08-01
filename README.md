@@ -27,7 +27,7 @@ The DBI (Database Interface) module is responsible for handling database operati
 ### DBUT Module
 The DBUT (Database Unit Testing) module provides the functionality for testing the database operations defined in the DBI module. It includes procedures for running unit tests, seeding the database, and validating functionality.
 
-For detailed documentation on each module, please refer to our Confluence pages: [DBI Module](https://your-confluence-url/dbi-module) and [DBUT Module](https://your-confluence-url/dbut-module).
+For detailed documentation on each module, please refer to our Confluence pages: [DBI Module](https://condorblack.atlassian.net/wiki/spaces/DE/pages/150110231/OneDBI+Framework) and [DBUT Module](https://condorblack.atlassian.net/wiki/spaces/DE/pages/118751309/DBUT+-+Unit+Testing).
 
 ## Database Structure
 The database is structured to include various procedures, functions, and tables to handle different aspects of database operations. The primary components are:
